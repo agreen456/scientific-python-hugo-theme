@@ -15,7 +15,7 @@
                   <img class="hero-logo" src="{{ printf "/images/%s" $image | relURL }}" alt="{{ $title }} logo. {{ $navbarLogo.altText }}">
               </div>
               <div class="flex-column">
-                  {{ with $subtitle }}
+                  {{ with $subtitle | markdownify}}
                   <div class="hero-subtitle">
                       {{ . }}
                   </div>

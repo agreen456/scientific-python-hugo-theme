@@ -55,17 +55,21 @@ em {
 }
 
 .hero-logo {
-  max-height: 75px;
-  padding: 0px 0 0 15px;
+  max-height: 90px;
+  padding: 0px 0 0 0px;
+  margin: auto;
 }
 
 .hero-subtitle {
   font-size: 1em;
   max-width: 550px;
+  padding: 15px 0 0 0;
+  text-align: center;
 }
 
 .hero-cta {
-  padding: 15px 0;
+  padding: 15px 0 0 0;
+  margin: auto;
 }
 
 .cta-button {
