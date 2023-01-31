@@ -11,23 +11,23 @@
     {{ partial "single/content.html" . }}
     {{ end }}
 
-    {{ if .Site.GetPage "/news" }}
+    <!-- {{ if .Site.GetPage "/news" }}
     {{ partial "news.html" . }}
-    {{ end }}
+    {{ end }} ##commented to disable news banner on front page-->
 
     {{ if .Site.Params.keyfeatures }}
     {{ partial "keyfeatures.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.shell }}
+    <!-- {{ if .Site.Params.shell }}
     {{ partial "shell.html" . }}
-    {{ end }}
+    {{ end }} #shell.html not provided by upstream package-->
 
-    {{ if .Site.Params.tabs }}
+    <!-- {{ if .Site.Params.tabs }}
     {{ partial "tabs.html" . }}
-    {{ end }}
+    {{ end }} #tabs.html not provided by upstream package -->
 
-    {{ if .Site.Params.casestudies }}
+    <!-- {{ if .Site.Params.casestudies }}
     {{ partial "casestudies.html" . }}
-    {{ end }}
+    {{ end }} # casestudies.html not provided by upstream package--> 
 {{ end }}
