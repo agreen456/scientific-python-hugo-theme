@@ -1,0 +1,22 @@
+{{/*
+
+doc: Make a link into a button
+
+<!-- {{< notice tip >}}
+This is a tip.
+{{< /notice >}} -->
+
+*/}}
+
+<!-- <div class="notice {{ .Get 0 }}-notice">
+  <div class="notice-type">🛈  &nbsp;{{ .Get 0 | humanize }}</div>
+  <div class="notice-content">
+    {{ .Inner | markdownify }}
+  </div></br>
+</div> -->
+
+<center>
+<div class="hero-cta">
+<a href="{{.Get `href` }}"><button class='cta-button'>{{ .Inner }}</button></a>
+</div>
+</center>
