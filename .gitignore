@@ -5,3 +5,6 @@ resources
 
 # Auto-generated
 doc/content/shortcodes.md
+
+# ignore all files in any directory with these names
+.DS_Store
